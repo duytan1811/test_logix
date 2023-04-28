@@ -1,0 +1,22 @@
+<div class="modal-content">
+    <div class="modal-header">
+        <h5 class="modal-title">
+            {{ modalTitle }}
+        </h5>
+    </div>
+
+    <div class="modal-body mt-5 mb-3">
+        {{ modalContent }}
+    </div>
+
+    <div class="modal-footer mt-5">
+        <button type="button" (click)="dialogRef.close(false)" class="btn btn-sm btn-danger align-self-center me-2">
+            <span class="svg-icon" [inlineSVG]="icon.CLOSE"></span>
+            {{ 'LABELS.CLOSE' | translate }}
+        </button>
+        <button type="button" (click)="dialogRef.close(true)" class="btn btn-sm btn-primary">
+            <span class="svg-icon" [inlineSVG]="icon.SAVE"></span>
+            {{ 'LABELS.CONFIRM' | translate }}
+        </button>
+    </div>
+</div>

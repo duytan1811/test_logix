@@ -1,0 +1,19 @@
+{
+  "dev": {
+    "driver": "mongodb",
+    "database": "tran",
+    "host": "localhost"
+  },
+
+  "test": {
+    "driver": "mongodb",
+    "database": "tran",
+    "host": "localhost"
+  },
+
+  "local": {
+    "driver": "mongodb",
+    "database": "tran",
+    "host": "localhost"
+  }
+}

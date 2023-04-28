@@ -1,0 +1,10 @@
+[
+  {
+    "name": "Admin Tran",
+    "username": "admin",
+    "email": "tes@gmail.com",
+    "is_admin": true,
+    "password": "$2b$10$5b.g6PoyEqf0mwWVWWt5QOepYnmb5LVBI1.rozG7SQ3HcZFZUMJ/.",
+    "__v": 0
+  }
+]

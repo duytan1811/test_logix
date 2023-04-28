@@ -1,0 +1,12 @@
+<div class="mb-5 d-flex" *ngFor="let video of videos$| async" >
+  <div style="height: 300px;">
+    <div style="position: absolute;">
+      <iframe height="300px" style="position: relative;" src="https://www.youtube.com/watch?v=H6cLiXoTXLk"
+      frameborder="0"></iframe>
+  
+    <button (click)="onLike(video._id)" style="position: absolute; top:150px;right:15px;">like</button>
+    <button (click)="onDislike(video._id)" style="position: absolute; top:200px;right:15px;">dislike</button>
+    <label style="position: absolute; top:250px;left: 15px;">{{ video.title }}</label>
+    </div>
+  </div>
+</div>
